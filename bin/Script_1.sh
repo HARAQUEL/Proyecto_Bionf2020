@@ -1,3 +1,4 @@
+#!/bin/bash
 ## Raquel Hernández Austria
 ## Script 1: Quality control with FastQC
 
