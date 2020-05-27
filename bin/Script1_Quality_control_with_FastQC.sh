@@ -3,7 +3,7 @@
 ## Script 1: Quality control of reads with FastQC
 
 # Preliminaries: Preparing directories
-# Make a directory named Proyecto_final on raquelha directory in UChile`s cluster.
+# Make a directory named Proyecto_final on raquelha directory from the UChile`s cluster.
 mkdir Proyecto_final
 
 # Download data in Proyecto_final
