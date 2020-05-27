@@ -3,17 +3,26 @@
 ## Script 1: Quality control with FastQC
 
 # Preliminaries: Preparing directories
-# Make a directory with subdirectories on raquelha directory in UChile`s cluster.
+# Make a directory named Proyecto_final on raquelha directory in UChile`s cluster.
 
-mkdir - p Proyecto_final/{bin,data,fastq_raw}
+mkdir Proyecto_final
 
-# From the bin directory, copy stacks_tut_small/raw/lane1/lane1_NoIndex_L001_R1_001.fq.gz to “data” directory from CONABIO`s cluster
+# Download data in Proyecto_final
+wget http://catchenlab.life.illinois.edu/data/rochette2017_gac_or.tar.gz
 
-scp -r -P 45789 cirio@200.12.166.164:/persistence/cirio/raquelha/stacks_tut_small/raw/lane1/lane1_NoIndex_L001_R1_001.fq.gz data
+# Decompress data
+tar -xzvf rochette2017_gac_or.tar.gz
 
-# Evaluate the quality of the reads with Fastqc
+# Look all directories and subdirectories downloaded
+# On top directory, make two subdirectories
+mkdir bin
+mkdir fastq_raw
 
-fastqc ../data/lane1_NoIndex_L001_R1_001.fq.gz -o fastq_raw
+# From bin, evaluate the quality of lane1`s reads with Fastqc
 
-fastqc ../data/lane1_NoIndex_L001_R1_002.fq.gz -o fastq_raw
+/opt/fastQC_v0.11.2/FastQC/fastqc ../raw/lane1/*.fq.gz -o ../fastq_raw
+
+# .html and .zip files are generated; download the files to your computer to assess the quality of the reads
+
+scp bioinfo1@genoma.med.uchile.cl:/home/bioinfo1/raquelha/Proyecto_final/rochette2017_gac_or/top/fastq_raw/lane1* .
 
