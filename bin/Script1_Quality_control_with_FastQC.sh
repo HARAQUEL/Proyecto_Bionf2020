@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Raquel Hernández Austria Mayo 2020
-## Script 1: Quality control with FastQC
+## Script 1: Quality control of reads with FastQC
 
 # Preliminaries: Preparing directories
 # Make a directory named Proyecto_final on raquelha directory in UChile`s cluster.
