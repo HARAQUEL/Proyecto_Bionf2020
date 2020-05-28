@@ -12,8 +12,9 @@ wget http://catchenlab.life.illinois.edu/data/rochette2017_gac_or.tar.gz
 # Decompress data
 tar -xzvf rochette2017_gac_or.tar.gz
 
-# Look all directories and subdirectories downloaded
-# On top directory, make two subdirectories
+# Review all directories and subdirectories downloaded; on "raw" directory are the raw sequencing data. 
+# We will only review the quality control of lane1`s reads
+# Within "top" directory, make two subdirectories
 mkdir bin
 mkdir fastq_raw
 
