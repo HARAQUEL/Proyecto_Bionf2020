@@ -18,7 +18,9 @@ The scripts in `/bin` should be run in the order they are numbered. The scripts 
 
 ###  `/data/`
 The used working data were the used by Rochette, N.C. & Catchen, J.M. (2017). Deriving genotypes from RAD-seq short-read data using Stacks. Nature Protocols 12, 2640–2659, which were download from http://catchenlab.life.illinois.edu/data/rochette2017_gac_or.tar.gz. 
-These data 
+The original data corresponds to a three-spined stickleback (*Gasterosteus aculeatus*) data set published by Catanchen et al. (2013). The population structure and recent colonization history of Oregon threespine stickleback determined using restriction-site associated DNA-sequencing. Molecular Ecology 22, 2864–2883. This demonstration data set comprises 78 samples from four populations along the coast of Oregon (USA), of which two are oceanic ('Cushman Slough' (CS) and 'South Jetty' (SJ)) and two are freshwater ('Winchester Creek' (WC) and 'Pony Creek Reservoir' (PCR)). The RAD-seq library was prepared using inline barcodes, and it was sequenced on a HiSeq 2000 platform with a read length of 101 bp.
 
 
-### `/data/`
+### `/meta/`
+
+
