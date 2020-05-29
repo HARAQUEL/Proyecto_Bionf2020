@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Raquel Hernández Austria Mayo 2020
-## Script 2: Cleaning and demultiplexing with Stacks`s functions
+## Script 2: Cleaning and demultiplexing with programs of Stacks
 
 # From CONABIO`s cluster, go to the raquelha/stacks_tut_small/demo_scripts/ directory
 # Create variables with relative paths
