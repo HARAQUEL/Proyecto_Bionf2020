@@ -21,11 +21,39 @@ Los **resultados** del reporte de control de calidad hecho con FastQC por cada u
 **Figure 1**. 
 
 
-El número de lecturas por muestras fue alto, hubo dos muestras ('sj_1483.05' y 'sj_1819.31') que casi no tuvieron lecturas (solo 553 y 522, respectivamente; Fig. 3), probablemente porque no se multiplexaron correctamente durante la construcción de la biblioteca (Rochette & Catchen, 2017).
+El número de lecturas por tipo de barcode fue alto; en total se retuvieron 28867508 de 35603570 (). Hubo dos muestras ('sj_1483.05' y 'sj_1819.31') que casi no tuvieron lecturas (solo 553 y 522, respectivamente; Fig. 3), probablemente porque no se multiplexaron correctamente durante la construcción de la biblioteca (Rochette & Catchen, 2017).
 
 ![](https://github.com/HARAQUEL/Proyecto_Bionf2020/blob/master/Figures/Rplot_1.png)
 
 **Figura 3**. Número de lecturas por muestra de la lane 1. Plot obtenido con ggplot2 en RStudio.
+
+|Barcode      |Filename     |Total reads  |Retained     |
+|-------------|-------------|-------------|-------------|
+|CTCGCC       |sj_1819.35   |1346898      |1197918      |
+|GACTCT       |sj_1819.31   |26185        |448          |
+|GAGAGA       |sj_1819.32   |1061822      |930454       |
+|GATCGT       |sj_1819.33   |1306694      |1155042      |
+|GCAGAT       |sj_1819.34   |982500       |862997       |
+|GCCGTA       |sj_1819.36   |1180712      |1047858      |
+|GCGACC       |sj_1819.37   |977166       |873186       |
+|GCGCTG       |sj_1819.38   |1540755      |1362947      |
+|GCTCAA       |sj_1819.39   |1807653      |1607218      |
+|GGACTT       |sj_1819.40   |1171425      |1038874      |
+|GGCAAG       |sj_1819.41   |1238785      |1096461      |
+|TCTCGG       |sj_1483.01   |928677       |824731       |
+|TCTTCT       |sj_1483.02   |811515       |709555       |
+|TGAACC       |sj_1483.03   |678885       |582383       |
+|TGACAA       |sj_1483.04   |817723       |697396       |
+|TGCCCG       |sj_1483.05   |18454        |339          |
+|TGCTTA       |sj_1483.06   |915320       |804307       |
+|TGGGGA       |sj_1484.01   |1927490      |1712170      |
+|TTATGA       |sj_1484.02   |1865717      |1663233      |
+|TTCCGT       |sj_1484.03   |2240673      |1997769      |
+|TTCTAG       |sj_1484.04   |2022176      |1815177      |
+|TTGAGC       |sj_1484.05   |1701985      |1528899      |
+|TTTAAT       |sj_1484.06   |2480028      |2199430      |
+|TTTGTC       |sj_1484.07   |3526590      |3158716      |
+
 
 
 
