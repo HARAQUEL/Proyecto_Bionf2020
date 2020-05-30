@@ -51,7 +51,7 @@ El número de lecturas por tipo de barcode fue alto; en total se retuvieron 2886
 |TTGAGC       |sj_1484.05   |1701985      |1528899      |
 |TTTAAT       |sj_1484.06   |2480028      |2199430      |
 |TTTGTC       |sj_1484.07   |3526590      |3158716      |
-              |Suma         |35603570     |28867508     |
+|             |Suma         |35603570     |28867508     |
 
 
 
