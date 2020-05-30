@@ -13,15 +13,15 @@ Los **resultados** del reporte de control de calidad hecho con FastQC por cada u
 
 ![](https://github.com/HARAQUEL/Proyecto_Bionf2020/blob/master/Figures/sequence_length_distribution_3.png)
 
-**Figure 1**. 
+**Figure 1**. Ejemplo del archivo lane1_NoIndex_L001_R1_001.fq.gz con más de 3888416 secuencias totales.
 
 
 ![](https://github.com/HARAQUEL/Proyecto_Bionf2020/blob/master/Figures/sequence_length_distribution_5.png)
 
-**Figure 1**. 
+**Figure 2**. Archivo Lane1_NoIndex_L001_R1_010.fq.gz con 566575 secuencias totales. 
 
 
-El número de lecturas por tipo de barcode fue alto; en total se retuvieron 28867508 de 35603570 (Tabla 1). Hubo dos muestras ('sj_1483.05' y 'sj_1819.31') que casi no tuvieron lecturas (solo 553 y 522, respectivamente; Tabla 1, Fig. 3), probablemente porque no se multiplexaron correctamente durante la construcción de la biblioteca (Rochette & Catchen, 2017).
+El número de lecturas por tipo de barcode fue alto; en total se retuvieron 28867508 de 35603570 (Tabla 1). 
 
 **Tabla 1**. Número total de reads generados por muestras y cantidad de retenidos.
 
@@ -54,6 +54,8 @@ El número de lecturas por tipo de barcode fue alto; en total se retuvieron 2886
 |             |Suma         |35603570     |28867508     |
 
 
+
+Hubo dos muestras ('sj_1483.05' y 'sj_1819.31') que casi no tuvieron lecturas (solo 339 y 448, respectivamente; Tabla 1, Fig. 3), probablemente porque no se multiplexaron correctamente durante la construcción de la biblioteca (Rochette & Catchen, 2017).
 
 ![](https://github.com/HARAQUEL/Proyecto_Bionf2020/blob/master/Figures/Rplot_1.png)
 
