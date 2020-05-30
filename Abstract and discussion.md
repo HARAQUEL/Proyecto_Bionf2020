@@ -21,11 +21,9 @@ Los **resultados** del reporte de control de calidad hecho con FastQC por cada u
 **Figure 1**. 
 
 
-El número de lecturas por tipo de barcode fue alto; en total se retuvieron 28867508 de 35603570 (). Hubo dos muestras ('sj_1483.05' y 'sj_1819.31') que casi no tuvieron lecturas (solo 553 y 522, respectivamente; Fig. 3), probablemente porque no se multiplexaron correctamente durante la construcción de la biblioteca (Rochette & Catchen, 2017).
+El número de lecturas por tipo de barcode fue alto; en total se retuvieron 28867508 de 35603570 (Tabla 1). Hubo dos muestras ('sj_1483.05' y 'sj_1819.31') que casi no tuvieron lecturas (solo 553 y 522, respectivamente; Tabla 1, Fig. 3), probablemente porque no se multiplexaron correctamente durante la construcción de la biblioteca (Rochette & Catchen, 2017).
 
-![](https://github.com/HARAQUEL/Proyecto_Bionf2020/blob/master/Figures/Rplot_1.png)
-
-**Figura 3**. Número de lecturas por muestra de la lane 1. Plot obtenido con ggplot2 en RStudio.
+**Tabla 1**. Número total de reads generados por muestras y cantidad de retenidos.
 
 |Barcode      |Filename     |Total reads  |Retained     |
 |-------------|-------------|-------------|-------------|
@@ -53,8 +51,13 @@ El número de lecturas por tipo de barcode fue alto; en total se retuvieron 2886
 |TTGAGC       |sj_1484.05   |1701985      |1528899      |
 |TTTAAT       |sj_1484.06   |2480028      |2199430      |
 |TTTGTC       |sj_1484.07   |3526590      |3158716      |
+              |Suma         |35603570     |28867508     |
 
 
+
+![](https://github.com/HARAQUEL/Proyecto_Bionf2020/blob/master/Figures/Rplot_1.png)
+
+**Figura 3**. Número de lecturas por muestra de la lane 1. Plot obtenido con ggplot2 en RStudio.
 
 
 **Literatura citada**
