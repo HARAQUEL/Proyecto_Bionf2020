@@ -1,5 +1,5 @@
 # Proyecto_Bionf2020
-This repository contains the Bioinformatica´s final project
+This repository contains the Bioinformatica´s final project. An abstract and discussion of this project are in https://github.com/HARAQUEL/Proyecto_Bionf2020/blob/master/Abstract%20and%20discussion.md.
 
 ## README
 This readme contains scripts for download data used by Rochette, N.C. & Catchen, J.M. (2017) and analyze it with **FastQC**, as well as, the `process_rad_tags program` of **Stacks**, and with the program **RStudio** for analyses and plotting. 
