@@ -13,15 +13,17 @@ Los **resultados** del reporte de control de calidad hecho con FastQC por cada u
 
 ![](https://github.com/HARAQUEL/Proyecto_Bionf2020/blob/master/Figures/sequence_length_distribution_3.png)
 
-**Figure 1**. Ejemplo del archivo lane1_NoIndex_L001_R1_001.fq.gz con más de 3888416 secuencias totales.
+**Figure 1**. Ejemplo del archivo lane1_NoIndex_L001_R1_001.fq.gz con 101 pares de bases y más de 3888416 secuencias totales.
 
 
 ![](https://github.com/HARAQUEL/Proyecto_Bionf2020/blob/master/Figures/sequence_length_distribution_5.png)
 
-**Figure 2**. Archivo Lane1_NoIndex_L001_R1_010.fq.gz con 566575 secuencias totales. 
+**Figure 2**. Ejemplo del archivo Lane1_NoIndex_L001_R1_010.fq.gz con 101 pares de bases pero y con 566575 secuencias totales. 
+
 
 
 El número de lecturas por tipo de barcode fue alto; en total se retuvieron 28867508 de 35603570 (Tabla 1). 
+
 
 **Tabla 1**. Número total de reads generados por muestras y cantidad de retenidos.
 
@@ -61,6 +63,7 @@ Hubo dos muestras ('sj_1483.05' y 'sj_1819.31') que casi no tuvieron lecturas (s
 
 **Figura 3**. Número de lecturas por muestra de la lane 1. Plot obtenido con ggplot2 en RStudio.
 
+De manera general se concluye que los datos de la lane 1 mostraron buenos controles de calidad y que la limpieza y el demultiplexeo se realizó de manera satisfactoria. Con este proyecto se tiene la base para realizar otros análisis como el ensamblado de novo y posteriormente realizar análisis de genética de poblaciones con **Stacks**. Así también, sirve de referencia para revisar el control de calidad y la limpieza de otros datos que pudieran generase con RADseq. 
 
 **Literatura citada**
 
