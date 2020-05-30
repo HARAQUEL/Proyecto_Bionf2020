@@ -15,6 +15,10 @@ The scripts in `/bin` should be run in the order they are numbered. This scripts
 
 *`Script3__Extract_number_of_reads.sh` extracts the number of reads by sample from the log file, and allows saved it in a tsv file.
 
+*`Script4_Plot_number_of_reads.R` plots number of reads by sample. 
+
+A html report was created with the `Script4_Plot_number_of_reads.R`; the name of this report is Report_Script4_Number_of_reads_by_sample.html
+
 ### `/data/`
 The used working data were the used by Rochette, N.C. & Catchen, J.M. (2017). Deriving genotypes from RAD-seq short-read data using Stacks. Nature Protocols 12, 2640–2659, which were download from http://catchenlab.life.illinois.edu/data/rochette2017_gac_or.tar.gz. This data are contained in three lanes; I only used the data from the lane 1.
 
