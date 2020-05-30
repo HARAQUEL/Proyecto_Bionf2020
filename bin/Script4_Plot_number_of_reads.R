@@ -6,8 +6,8 @@
 # Your working directory must be bin, where you should save this script
 
 # Load packages
-# `readr` read rectangular data like `csv` and `tsv` files
-# `ggplot2` create elegant graphics
+# `readr` reads rectangular data like `csv` and `tsv` files
+# `ggplot2` creates elegant graphics
 library(readr)
 library(ggplot2)
 
